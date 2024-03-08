@@ -28,7 +28,7 @@ TRAINING_PARAMS = \
     "img_w": 416,
     "parallels": [0,1,2,3],                         #  config GPU device
     "working_dir": "../results",              #  replace with your working dir
-    "pretrain_snapshot": "",                        #  load checkpoint
+    "pretrain_snapshot": "darknet53_weights_pytorch.pth",                        #  load checkpoint
     "evaluate_type": "", 
     "try": 0,
     "export_onnx": False,
