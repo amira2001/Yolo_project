@@ -26,9 +26,9 @@ TRAINING_PARAMS = \
     "epochs": 100,
     "img_h": 416,
     "img_w": 416,
-    "parallels": [0,1,2,3],                         #  config GPU device
+    "parallels": 0,                         #  config GPU device
     "working_dir": "../results",              #  replace with your working dir
-    "pretrain_snapshot": "../weights",       #  load checkpoint
+    "pretrain_snapshot": "",       #  load checkpoint
     "evaluate_type": "", 
     "try": 0,
     "export_onnx": False,

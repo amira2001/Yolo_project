@@ -46,7 +46,8 @@ def train(config):
     # Restore pretrain model
     if config["pretrain_snapshot"]:
         logging.info("Load pretrained weights from {}".format(config["pretrain_snapshot"]))
-        state_dict = torch.load(config["pretrain_snapshot"],map_location="cpu")
+        state_dict = torch.load(config["pretrain_snapshot"])
+        #,map_location="cpu"
         net.load_state_dict(state_dict)
 
     # Only export onnx
