@@ -27,7 +27,7 @@ TRAINING_PARAMS = \
     "img_h": 416,
     "img_w": 416,
     "parallels": [0,1,2,3],                         #  config GPU device
-    "working_dir": "YOUR_WORKING_DIR",              #  replace with your working dir
+    "working_dir": "../results",              #  replace with your working dir
     "pretrain_snapshot": "",                        #  load checkpoint
     "evaluate_type": "", 
     "try": 0,
