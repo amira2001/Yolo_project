@@ -21,9 +21,9 @@ TRAINING_PARAMS = \
         "type": "sgd",
         "weight_decay": 4e-05,
     },
-    "batch_size": 16,
+    "batch_size": 8,
     "train_path": "../data/coco/trainvalno5k.txt",
-    "epochs": 100,
+    "epochs": 10,
     "img_h": 416,
     "img_w": 416,
     "parallels": [0],                         #  config GPU device
